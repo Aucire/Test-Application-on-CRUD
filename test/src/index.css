@@ -1,0 +1,34 @@
+/* @import google fonts and Icons*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color:orangered;
+    --bgcolor: #313131;
+    --textfont: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --titlefont: system-ui, 'Segoe UI', Roboto, sans-serif;
+    --transition: all 0.2s ease;
+}
+body{
+    min-height: 100svh;
+    width: 100%;
+    background: none;
+
+    font: 20px/145% white;
+    line-height: 1.6;
+    letter-spacing: 0.18px;
+    font-synthesis: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+}
